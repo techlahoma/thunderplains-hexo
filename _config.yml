@@ -16,7 +16,7 @@ url: http://thunderplainsconf.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
-archive_dir: archives
+archive_dir: blog
 category_dir: categories
 code_dir: downloads/code
 
@@ -83,6 +83,8 @@ disqus_shortname:
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
 theme: thunderplains
 exclude_generator:
+- index
+- home
 
 stylus:
   compress: false
