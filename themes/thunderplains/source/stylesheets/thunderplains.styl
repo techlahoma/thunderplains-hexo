@@ -216,18 +216,18 @@ header
       &.legend-room1
         &:before
           background: $purple-dark
-        &:hover:before   
-          background: saturate($purple-dark, $hoverSaturate)                         
+        &:hover:before
+          background: saturate($purple-dark, $hoverSaturate)
       &.legend-room2
         &:before
           background: $purple-light
-        &:hover:before   
-          background: saturate($purple-light, $hoverSaturate)                                        
+        &:hover:before
+          background: saturate($purple-light, $hoverSaturate)
       &.legend-room3
         &:before
           background: $orange
         &:hover:before
-          background: saturate($orange, $hoverSaturate)                                     
+          background: saturate($orange, $hoverSaturate)
   .schedule-list
     @extend .list-simple
     border: 1px solid $creme
@@ -265,20 +265,20 @@ header
       background: mix(white, $background)
       text-align: center
       border-left: 5px solid $purple-light
-      transition: all $hoverReactSpeed linear                                     
+      transition: all $hoverReactSpeed linear
       &:hover
           border-left-color: saturate($purple-light, $hoverSaturate)
           background-color:  desaturate(lighten($purple-light, $hoverBackgroundLighten), $hoverDesaturateBack)
-          .schedule-title h3                                  
+          .schedule-title h3
             color: saturate(darken($purple-light, $hoverDarkenFont), $hoverSaturateFont)
-            text-shadow: $hoverTextShadow                                    
+            text-shadow: $hoverTextShadow
       p
         font-size: 15px
         line-height: 1em
         text-transform: uppercase
         font-weight: 700
         color: $green-light
-        margin: 0                                    
+        margin: 0
       .schedule-talk
         border: none
         padding: 0 10px
@@ -292,34 +292,34 @@ header
       cursor: pointer
       border-left: 5px solid $creme
       padding: 15px 20px 15px 10px
-      transition: all $hoverReactSpeed ease                                    
+      transition: all $hoverReactSpeed ease
       &.schedule-room1
         border-left-color: $purple-dark
-        &:hover 
+        &:hover
         &.hover
           border-left-color: saturate($purple-dark, $hoverSaturate)
           background-color:  desaturate(lighten($purple-dark, $hoverBackgroundLighten), $hoverDesaturateBack)
-          .schedule-title h3                                 
+          .schedule-title h3
             color: saturate(darken($purple-dark, $hoverDarkenFont), $hoverSaturateFont)
-            text-shadow: $hoverTextShadow                                 
+            text-shadow: $hoverTextShadow
       &.schedule-room2
         border-left-color: $purple-light
-        &:hover 
+        &:hover
         &.hover
           border-left-color: saturate($purple-light, $hoverSaturate)
           background-color:  desaturate(lighten($purple-light, $hoverBackgroundLighten), $hoverDesaturateBack)
-          .schedule-title h3                                
+          .schedule-title h3
             color: saturate(darken($purple-light, $hoverDarkenFont), $hoverSaturateFont)
-            text-shadow: $hoverTextShadow                              
+            text-shadow: $hoverTextShadow
       &.schedule-room3
         border-left-color: $orange
-        &:hover 
+        &:hover
         &.hover
           border-left-color: saturate($orange, $hoverSaturate)
           background-color:  desaturate(lighten($orange, $hoverBackgroundLighten), $hoverDesaturateBack)
-          .schedule-title h3                                  
+          .schedule-title h3
             color: saturate(darken($orange, $hoverDarkenFont), $hoverSaturateFont)
-            text-shadow: $hoverTextShadow                                 
+            text-shadow: $hoverTextShadow
       &.no-modal
         cursor: default
       img, ul, p
@@ -343,7 +343,7 @@ header
       margin-bottom: 7px
   
   .nav-tabs
-    margin-top: -28px;                                        
+    margin-top: -28px;
   p
     clear: both
     margin-top: 10px
@@ -357,21 +357,21 @@ header
     top: 0
     right: 8px
     width: 200px
-    height: 200px                                        
+    height: 200px
   .schedule-talk
     position: relative
     z-index: 1
     .schedule-title
       min-height: 200px
-      padding-right: 210px                                      
+      padding-right: 210px
       h3
         font-size: 32px
       h4
-        margin-top: 12px                                    
+        margin-top: 12px
         font-size: 24px
     p
        font-size: 16px
-       text-align: justify;                                      
+       text-align: justify;
       
 #passes
   .passes-list
@@ -583,3 +583,21 @@ footer
 .sponsor
   img
     max-width: 250px
+
+.cfp
+  background-color:#b27d97;
+  display:block;
+  color:#fff;
+  padding: 25px;
+  font-size: 45px;
+  margin: 70px auto;
+  border-radius:20px;
+  border:1px white solid;
+  text-shadow:#C17C3A 0 -1px 0;
+  transition: letter-spacing 1s ease-out;
+  &:hover
+    letter-spacing: 3pt;
+    color: #b27d97;
+    border-color: #b27d97
+    background-color:  #fff
+                                                                  
